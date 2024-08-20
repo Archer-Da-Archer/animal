@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Sound Detection Web App</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="container header_div">
+        <h2>Animal Sound Detection</h2>
+        <p>This web app detects and counts the number of times different animal sounds are played.</p>
+    </div>
+
+    <div class="container main_div">
+      
+            <button class="btn btn-primary" onclick="startClassification()">Start Detection</button>
+            <h4 id="animalCount">Count: Dog: 0, Cat: 0, Lion: 0, Cow: 0</h4>
+            <h3 id="animalName">Listening...</h3>
+            <br>
+            <img id="animalImage" src="https://tse1.mm.bing.net/th?id=OIP.Nh9j0VyfRsC3unq6r6T7ewHaF7&pid=Api&P=0&h=180" width="300" height="300" alt="Listening">
+     
+    </div>
+
+    <div class="copy_right_footer">
+        <p>&copy; 2024 Animal Sound Detection Web App. All rights reserved.</p>
+    </div>
+
+
+    <script src="main.js"></script>
+</center>
+</body>
+</html>
+
+
+
+
+
+                            
+        
